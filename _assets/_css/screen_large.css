@@ -1,0 +1,298 @@
+ @charset "UTF-8";
+
+/*COLORS
+	yellow FFCD38
+	black
+	dark gray 5c5c5c
+	light gray 999999
+	hover gray 373737
+*/
+
+/*FONTS*/
+@font-face{
+	font-family: "blackjack";
+	src: url("../_assets/_fonts/black_jack.ttf");
+	font-family: "pacifico";
+	src: url("../WebPortfolio_Johnson/_assets/_fonts/pacifico.ttf");
+	font-family: "Arcon";
+	src: url("_assets/_fonts/Arcon-Regular.ttf");
+	font-family: "Arcon-Rounded";
+	src: url("_assets/_fonts/arcon-rounded-regular.ttf");
+}
+
+/* GENERAL TAGS*/
+
+body{
+	font-family: "Arcon", "Century Gothic", Arial;
+	background-color: black;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+.white{background-color: #EBEBEB; color: black; padding-bottom: 20px;}
+#resume-wrapper a{color: #5c5c5c;}
+#resume-wrapper a:hover, #resume-wrapper a:focus{color: black; font-weight: bold;}
+
+nav ul{
+	background-color: black;
+	margin: 0;
+	text-align: center;
+	margin-top: 32px;
+	padding-bottom: 20px;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1.1em;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+#info p{
+	font-size: 1em;
+}
+
+h1{
+	font-family: "pacifico", "blackjack", "Century Gothic";
+	font-size: 5em;
+	text-align: center;
+	margin: 0;
+}
+
+h3{
+	margin-left: 10%;
+	font-weight: normal;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+h3:hover, h3:focus{
+	color: black;
+}
+
+h4{
+	font-size: 1.2em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+footer{
+	text-align: right;
+	padding: 10px;
+	clear: left;
+	margin-top: 0px;
+}
+
+
+
+
+
+
+
+/* A, hover, focus*/
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#contact a, .return a{
+	color: #5c5c5c;
+}
+
+.return{ padding-bottom: 10px;}
+
+nav ul li a:hover{
+	color: #999999;
+}
+
+.light-gray:hover, .dark-gray:hover{
+	background-color: #373737;
+}
+
+.more{
+	margin-left: 92%;
+}
+
+.more:hover, .more:focus, #contact a:hover, #contact a:focus{
+	font-weight: bold;
+}
+
+
+
+/*ALL PAGE CLASSES*/
+.current{
+	color: #FFCD38;
+}
+.light-gray, .light-gray-page{
+	background-color: #999999;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+
+.dark-gray, .dark-gray-page{
+	background-color: #5c5c5c;
+	padding-bottom: 20px;
+}
+
+#danielle{
+	float: left;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: "pacifico", "blackjack", "Century Gothic";
+	font-size: 1.8em;
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	margin-left: 1%;
+}
+
+#smalldanielle{
+	display: none;
+}
+
+
+/*HOME IDs and CLASSES*/
+#hello{
+	font-size: 10em;
+}
+
+#info{
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.banner{
+	background-color: #FFCD38;
+	padding: 5%;
+	margin-top: 1%;
+}
+
+h2, .teaser{
+	padding-left: 5%;
+	padding-top: 20px;
+	padding-right: 8%;
+}
+
+.teaser{
+	font-size: 1.2em;
+}
+
+
+
+/*CAPSTONE AND INTERNSHIP CLASSES*/
+#capstone-soon, #internship-soon{
+	width: 51%;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 20px;
+}
+
+#capstone-soon, #internship-soon{
+	padding-bottom: 21%;
+	font-size: 1.2em;
+}
+
+
+
+/*ABOUT ME*/
+.about{
+	width: 51%;
+	margin-top: 25px;
+	margin-left: 25%;
+}
+
+#aboutImage{
+	margin-top: 20px;
+}
+
+
+
+/*RESUME*/
+#resume-wrapper{
+	margin-left: 20%;
+}
+
+#resume-img{
+	padding-top: 20px;
+}
+
+/*PROJECTS CLASSES AND IDs*/
+
+.tmbs{
+	margin-left: 12%;
+}
+
+.project-p{
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+#asterisk{
+	margin: 0 10%;
+	padding: 30px 0;
+	font-size: 1em;
+}
+
+.return{
+	margin-left: 12%;
+}
+
+.return a:hover, .return a:focus{
+	color: black;
+	font-weight: bold;
+}
+
+.web-links{
+	font-weight: bold;
+}
+
+#sat-new, #dante, #quiz, #hoc, #cuesps, #swcta, #swctawp, #portrait, #infographic, #spp, #nacte, 
+#card, #fineart, #fable, #brianhead, #shootergame, #theme, #marketingeducation, #lvgea, #type, #threeD{
+	display: none;
+}
+
+.pointer{
+	cursor: pointer;
+	cursor: hand; /*To satisfy other browsers*/
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.project-h2{
+	font-size: 1.8em;
+}
+
+
+/*CONTACT CLASSES AND IDs*/
+#contact{
+	margin-left: 25%;
+	margin-top: 0px;
+	padding-top: 20px;
+	width: 51%;
+}
+
+#contact p{
+	font-size: 1.2em;
+}
+
+	/*FORM*/
+	form{
+		margin-left: 25%;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	button{
+		border-radius: 5px;
+	}
